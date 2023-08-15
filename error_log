@@ -1,0 +1,30 @@
+[15-Jul-2021 20:10:10 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/wu7n49lzr0a2/public_html/sensors/vendor/laravel/framework/src/Illuminate/Container/Container.php:873
+Stack trace:
+#0 /home/wu7n49lzr0a2/public_html/sensors/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): ReflectionClass->__construct('config')
+#1 /home/wu7n49lzr0a2/public_html/sensors/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build('config')
+#2 /home/wu7n49lzr0a2/public_html/sensors/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('config', Array, true)
+#3 /home/wu7n49lzr0a2/public_html/sensors/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('config', Array)
+#4 /home/wu7n49lzr0a2/public_html/sensors/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('config', Array)
+#5 /home/wu7n in /home/wu7n49lzr0a2/public_html/sensors/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[15-Jul-2021 20:10:27 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/wu7n49lzr0a2/public_html/sensors/vendor/laravel/framework/src/Illuminate/Container/Container.php:873
+Stack trace:
+#0 /home/wu7n49lzr0a2/public_html/sensors/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): ReflectionClass->__construct('config')
+#1 /home/wu7n49lzr0a2/public_html/sensors/vendor/laravel/framework/src/Illuminate/Container/Container.php(754): Illuminate\Container\Container->build('config')
+#2 /home/wu7n49lzr0a2/public_html/sensors/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('config', Array, true)
+#3 /home/wu7n49lzr0a2/public_html/sensors/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve('config', Array)
+#4 /home/wu7n49lzr0a2/public_html/sensors/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(826): Illuminate\Container\Container->make('config', Array)
+#5 /home/wu7n in /home/wu7n49lzr0a2/public_html/sensors/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 875
+[15-Jul-2021 22:27:22 Africa/Cairo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /home/wu7n49lzr0a2/public_html/sensors/bootstrap/cache/services.php on line 1
+[15-Jul-2021 22:27:32 Africa/Cairo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/wu7n49lzr0a2/public_html/sensors/vendor/symfony/console/Formatter/OutputFormatter.php on line 147
+[15-Jul-2021 22:28:20 Africa/Cairo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /home/wu7n49lzr0a2/public_html/sensors/bootstrap/cache/services.php on line 1
+[15-Jul-2021 22:29:45 Africa/Cairo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /home/wu7n49lzr0a2/public_html/sensors/bootstrap/cache/services.php on line 1
+[15-Jul-2021 22:29:59 Africa/Cairo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/wu7n49lzr0a2/public_html/sensors/vendor/laravel/framework/src/Illuminate/Validation/ValidationServiceProvider.php on line 64
+[15-Jul-2021 22:30:12 Africa/Cairo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/wu7n49lzr0a2/public_html/sensors/bootstrap/cache/packages.php on line 6
+[15-Jul-2021 22:30:30 Africa/Cairo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/wu7n49lzr0a2/public_html/sensors/vendor/symfony/console/Formatter/OutputFormatter.php on line 147
+[15-Jul-2021 22:31:02 Africa/Cairo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/wu7n49lzr0a2/public_html/sensors/vendor/symfony/console/Formatter/OutputFormatter.php on line 147
+[15-Jul-2021 22:32:22 Africa/Cairo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/wu7n49lzr0a2/public_html/sensors/vendor/symfony/console/Formatter/OutputFormatter.php on line 147
+[15-Jul-2021 22:38:45 Africa/Cairo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/wu7n49lzr0a2/public_html/sensors/vendor/laravel/framework/src/Illuminate/Queue/QueueServiceProvider.php on line 152
+[15-Jul-2021 22:39:10 Africa/Cairo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/wu7n49lzr0a2/public_html/sensors/vendor/symfony/console/Color.php on line 91
+[15-Jul-2021 22:39:36 Africa/Cairo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/wu7n49lzr0a2/public_html/sensors/vendor/symfony/console/Color.php on line 91
+[15-Jul-2021 22:40:15 Africa/Cairo] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/wu7n49lzr0a2/public_html/sensors/vendor/laravel/framework/src/Illuminate/Console/Parser.php on line 140
+[26-Aug-2021 15:38:31 Africa/Cairo] PHP Fatal error:  Cannot use Illuminate\Notifications\Notifiable as Notifiable because the name is already in use in /home/wu7n49lzr0a2/public_html/sensors/app/Models/Staff.php on line 8
